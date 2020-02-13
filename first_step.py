@@ -29,7 +29,7 @@ for i in range(0,10000):
         linkstr = browser.find_elements_by_xpath('//*[@class="weibo-text"]//a')[i].get_attribute("href")
         if linkstr.find('status') != -1:
             ws.cell(row=i+2,column=1,value = linkstr)
-            wb.save('nicol.xlsx')
+            wb.save('link.xlsx')
     else:
         ws.cell(row=i+2,column=1,value = "OK")
         real_out = ""
