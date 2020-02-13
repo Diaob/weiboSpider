@@ -12,7 +12,7 @@ This is a Sina Weibo spider based on selenium.
 - Chrome are running during the process, which may takes up large memory
 - Users have to sign in Weibo manually
 - Due to UCS-2 format in the text, in order to avoid error, every word will be printed on the screen
-- cannot download pictures or videos
+- Cannot download pictures or videos
 
 ## Known BUG
 - timeline can be disordered
@@ -47,7 +47,7 @@ Please respect everyone's time.
 - 配置环境。注意如果你不能获取Chrome版本的selenium调试文件，我建议你换成Firefox，并将代码中的Chrome()换成Firefox()
 - 编辑"first_step.py"，把url换成你要爬取的博主的url
 - （注意：这个url带有/p/，你可以在手机版网页下，点击评论中博主的头像找到这个网址，记得无限下拉是可以看到全部微博的哦）
-- 保存文件，执行"python first_step"
+- 保存文件，执行"python first_step.py"
 - 在浏览器中输入weibo.com，并立刻登录！且不要关闭这个网址！
 - 执行"python second_step.py"，当然你也可以先去看看"link.xlsx"，第一步是否正常运行
 - 完成！
